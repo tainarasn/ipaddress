@@ -2,6 +2,7 @@ import "./App.css"
 import { Providers } from "./Providers"
 import { Snackbar } from "@mui/material"
 import "@mantine/core/styles.css"
+import "leaflet/dist/leaflet.css"
 import { Routes } from "./Routes"
 
 function App() {

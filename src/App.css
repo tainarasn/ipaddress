@@ -50,25 +50,8 @@
 }
 
 @font-face {
-    font-family: at;
-    src: url("../src/assets/fonts/atwriter.ttf");
-}
-@font-face {
-    font-family: hammk;
-    src: url("../src/assets/fonts/hammk.TTF");
-}
-@font-face {
-    font-family: machine;
-    src: url("../src/assets/fonts/machine.ttf");
-}
-
-@font-face {
     font-family: space;
     src: url("../src/assets/fonts/space.ttf");
-}
-@font-face {
-    font-family: Teko;
-    src: url("../src/assets/fonts/Teko.ttf");
 }
 
 form {
