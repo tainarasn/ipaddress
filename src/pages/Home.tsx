@@ -1,10 +1,12 @@
+import { Box } from "@mui/material"
 import React from "react"
 
 interface HomeProps {}
 
 export const Home: React.FC<HomeProps> = ({}) => {
     return (
-        <div className="Home-Component">
+        <Box sx={{ width: "100%", height: "100%" }}>
+            <p style={{ color: "#fff" }}>OPAPO</p>
             <div>
                 {" "}
                 Ícones feitos por{" "}
@@ -14,9 +16,9 @@ export const Home: React.FC<HomeProps> = ({}) => {
                 </a>{" "}
                 from{" "}
                 <a href="https://www.flaticon.com/br/" title="Flaticon">
-                    www.flaticon.com'
+                    www.flaticon.com
                 </a>
             </div>
-        </div>
+        </Box>
     )
 }

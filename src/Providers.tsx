@@ -1,9 +1,11 @@
-import { MantineProvider, useMantineTheme } from "@mantine/core"
+import { MantineProvider } from "@mantine/core"
 import React from "react"
 import { BrowserRouter } from "react-router-dom"
 import { useMuiTheme } from "./hooks/useMuiTheme"
 import { ThemeProvider } from "@mui/material"
 import { SnackbarProvider } from "burgos-snackbar"
+import "@mantine/core/styles.css"
+import { useMantineTheme } from "./hooks/useMantineTheme"
 
 interface ProvidersProps {
     children: React.ReactNode

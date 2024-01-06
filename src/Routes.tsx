@@ -1,12 +1,15 @@
 import React from "react"
-import { Route, Routes as Router } from "react-router-dom"
+import { Routes as ReactRoutes, Route } from "react-router-dom"
 import { Home } from "./pages/Home"
+
 interface RoutesProps {}
 
 export const Routes: React.FC<RoutesProps> = ({}) => {
     return (
-        <Router>
-            <Route path="ipend/" element={<Home />} />
-        </Router>
+        <ReactRoutes>
+            <Route index element={<Home />} />
+            <Route path="/ipend/" element={<Home />} />
+            <Route path="/ipend/*" element={<Home />} />
+        </ReactRoutes>
     )
 }

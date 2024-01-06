@@ -1,12 +1,13 @@
 import "./App.css"
 import { Providers } from "./Providers"
-import { Routes } from "react-router-dom"
 import { Snackbar } from "@mui/material"
+import "@mantine/core/styles.css"
+import { Routes } from "./Routes"
 
 function App() {
     return (
         <Providers>
-            <Routes />git init
+            <Routes />
             <Snackbar />
         </Providers>
     )
