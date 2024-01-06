@@ -4,8 +4,8 @@ export const inputStyle = { height: 45 }
 export const textStyle = { fontFamily: "MalgunGothic2", justifyContent: "center", fontsize: "4vw", textAlign: "left" }
 export const textField = {
     "& .MuiInputBase-root": {
-        backgroundColor: "#fff",
-
+        backgroundColor: "#545051",
+        color: "#FFF",
         borderRadius: "0.8vw",
     },
 

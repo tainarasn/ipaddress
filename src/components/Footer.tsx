@@ -9,7 +9,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
             sx={{
                 width: "100%",
                 height: "5%",
-                fontFamily: "space",
+                fontFamily: "Roboto",
                 fontSize: "0.7vw",
                 fontWeight: "bold",
                 alignItems: "center",

@@ -1,7 +1,6 @@
 import { Box, TextField } from "@mui/material"
 import React from "react"
 import { textField } from "../styles/input"
-import image from "./../assets/3.svg"
 import { Logo } from "./Logo"
 import { Circuit } from "./Circuit"
 
@@ -24,6 +23,7 @@ export const Header: React.FC<HeaderProps> = ({}) => {
             <Box sx={{ position: "fixed", right: "5vw", top: "-3vw" }}>
                 <Logo />
             </Box>
+            <h3 style={{ color: "#fff" }}>IP Address</h3>
             <TextField
                 sx={{ ...textField, width: "35%", position: "fixed", top: "6vw" }}
                 placeholder="Ip Address"
