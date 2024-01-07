@@ -18,9 +18,19 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                 bottom: "0.1vw",
                 zIndex: 1,
                 color: "#fff",
+                flexDirection: "row",
+                gap: "0.5vw",
             }}
         >
             {" "}
+            <p>
+                Icons made by{" "}
+                <a href="https://www.freepik.com" title="Freepik">
+                    {" "}
+                    Freepik.
+                </a>
+            </p>
+            <p>SVG line drawing animation made by Julian Garnier.</p>
             Challenge by Frontend Mentor. Coded by Tainara Novaes. 2024.
         </Box>
     )
