@@ -1,5 +1,5 @@
 import { Box, IconButton, InputAdornment, TextField } from "@mui/material"
-import React, { ChangeEvent, ChangeEventHandler } from "react"
+import React from "react"
 import { textField } from "../styles/input"
 import { Logo } from "./Logo"
 import { Circuit } from "./Circuit"
